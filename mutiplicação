@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int juninhos(int maca, int sofia) {
+    int juninho = maca * sofia;
+    return juninho;
+}
+
+int main() {
+    int maca = 10;
+    int sofia = 5;
+
+    int resultado_juninho = juninhos(maca, sofia);
+    cout << "Resultado do Juninho: " << resultado_juninho << endl;
+
+    return 0;
